@@ -1,6 +1,18 @@
 <resources>
     <string name="app_name">lvl7tsk2</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome to the HvA locations game</string>
+    <string name="start_text">After pressing start you will start the quest. After each question a picture of a HvA Building is shown. Go to the building and start the next question. At the end there will be a prize waiting for yoy!</string>
+    <string name="start_quest">Start quest</string>
+    <string name="confirm">Confirm</string>
+    <string name="next">Next question</string>
+    <string name="dummy_question">dummy question</string>
+    <string name="dummy_answer_one">dummy answer 1</string>
+    <string name="dummy_answer_two">dummy answer 2</string>
+    <string name="dummy_answer_three">dummy answer 3</string>
+    <string name="vooruitgeng">%1d/%2d</string>
+    <string name="go_t0">Go to the location as shown in the image below</string>
+    <string name="finish">Finish</string>
+    <string name="congratz">Congratulations, you finished the quest!</string>
+    <string name="here_is">Here is your prize.</string>
+    <string name="cake">Picture of a cake</string>
 </resources>

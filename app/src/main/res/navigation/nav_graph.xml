@@ -8,8 +8,8 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.lvl7tsk2.HomeFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        android:label="home"
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_vraagFragment"
             app:destination="@id/vraagFragment" />
@@ -17,24 +17,43 @@
     <fragment
         android:id="@+id/vraagFragment"
         android:name="com.example.lvl7tsk2.VraagFragment"
-        android:label="fragment_vraag"
-        tools:layout="@layout/fragment_vraag" >
+        android:label="vraag"
+        tools:layout="@layout/fragment_vraag">
         <action
             android:id="@+id/action_vraagFragment_to_lokatieFragment"
             app:destination="@id/lokatieFragment" />
+        <argument
+            android:name="progressIndex"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="pageIndex"
+            app:argType="integer"
+            android:defaultValue="1" />
     </fragment>
     <fragment
         android:id="@+id/lokatieFragment"
         android:name="com.example.lvl7tsk2.LokatieFragment"
-        android:label="fragment_lokatie"
-        tools:layout="@layout/fragment_lokatie" >
+        android:label="lokatie"
+        tools:layout="@layout/fragment_lokatie">
         <action
             android:id="@+id/action_lokatieFragment_to_feestFragment"
             app:destination="@id/feestFragment" />
+        <action
+            android:id="@+id/action_lokatieFragment_to_vraagFragment"
+            app:destination="@id/vraagFragment" />
+        <argument
+            android:name="progressIndex"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="pageIndex"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
     <fragment
         android:id="@+id/feestFragment"
         android:name="com.example.lvl7tsk2.FeestFragment"
-        android:label="fragment_feest"
+        android:label="end"
         tools:layout="@layout/fragment_feest" />
 </navigation>

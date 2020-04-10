@@ -9,10 +9,11 @@
     <string name="dummy_answer_one">dummy answer 1</string>
     <string name="dummy_answer_two">dummy answer 2</string>
     <string name="dummy_answer_three">dummy answer 3</string>
-    <string name="vooruitgeng">%1d/%2d</string>
+    <string name="vooruitgeng">%1d/9</string>
     <string name="go_t0">Go to the location as shown in the image below</string>
     <string name="finish">Finish</string>
     <string name="congratz">Congratulations, you finished the quest!</string>
     <string name="here_is">Here is your prize.</string>
     <string name="cake">Picture of a cake</string>
+    <string name="claim">Claim your prize</string>
 </resources>

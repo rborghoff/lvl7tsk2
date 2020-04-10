@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/ivLokatie"
         android:layout_width="213dp"
         android:layout_height="187dp"
         app:layout_constraintBottom_toTopOf="@+id/btnNext"

@@ -65,4 +65,8 @@ class QuestRepository {
             )
         )
     }
+    fun getQuestion(index: Int) : Question {
+        return getHvaQuest()[index]
+    }
+
 }
